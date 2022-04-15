@@ -35,9 +35,29 @@ BOT TOKEN: @Botfather on telegram
   
 Deploy your bot on `heroku`
 
+
+- Fork the repo, and star it
+- create app in heroku
+- go to settings of app>> config vars>> add all variables
+- add buildpacks
+- connect to github and deploy
+- turn on dynos
+  
+`or`
+
 CLick Button
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=ur repo)
+
+Changes to make
+add repo link in deploy button - readme file
+add repo link in repository in app.json
+if want remove auth so everyone can use batch
+removed limit in batch 
+and edited time in batch can be edited more
+😎😎 done 
+original repo-https://github.com/vasusen-code/SaveRestrictedContentBot
+
   
 Buildpacks for manual deploy:
 
